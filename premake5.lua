@@ -39,11 +39,4 @@ project "game-of-life"
             "gdi32",
             "winmm"
         }
-
-        prelinkcommands {
-            "cd .\\vendor\\raylib\\src",
-            "mingw32-make.exe RAYLIB_BUILD_MODE=%{string.upper(cfg.buildcfg)} PLATFORM=PLATFORM_DESKTOP",
-            "cd ..\\..\\.."
-        }
-
     
