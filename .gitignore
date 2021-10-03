@@ -1,0 +1,11 @@
+.vs/
+.vscode/
+
+bin/
+bin-obj/
+
+Makefile
+*.make
+
+*.sln
+*.vcxproj*
