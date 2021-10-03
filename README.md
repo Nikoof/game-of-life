@@ -15,7 +15,7 @@ This implementation uses [premake5]("https://github.com/premake/premake-core") t
 ## Instructions
 ### 1. Generate project files.
 ```ps
-PS > premake5 gmake2
+PS > premake5.exe gmake2
 ```
 
 ### 2. Compile dependencies
