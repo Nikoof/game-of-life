@@ -27,6 +27,15 @@ project "game-of-life"
     libdirs {
         vendor["raylib"].."/src"
     }
+    
+    -- Filters
+    filter "configurations:debug"
+        defines { "DEBUG" }
+        symbols "On"
+
+    filter "configurations:release"
+        defines { "RELEASE" }
+        optimize "On"
 
     filter { "system:windows" }
         defines {
